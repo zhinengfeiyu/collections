@@ -1,0 +1,6 @@
+关于layout_weight属性的总结
+
+- layout_weight属性只能用于LinearLayout布局，不能用于RelativeLayout等其他布局；
+- layout_weight属性如果不设定，默认值为0；
+- layout_weight的作用是，该方向上的所有控件，在根据layout_width/layout_height分配完空间后，如果有剩余的空间，layout_weight不为0的空间可以继续占用空间，至于占用多少，则根据layout_weight设定的比例进行占用；
+- 给父布局指定weightSum属性，如果大于子布局weight总和，按比例剩余空间。

@@ -1,0 +1,1 @@
+请参考[MarkDown语法说明官方文档](http://www.markdown.cn/#editor)

@@ -61,7 +61,7 @@ IDE原来的快捷键：
     按文件名打开文件
 - CTRL+E <br>
     打开最近浏览的文件
-- 在XML硬编码的字符串或尺寸值光标处 ALT+ENTER 统一到strings.xml或dimens.xml
+- 在XML硬编码的字符串或尺寸值光标处 ALT+ENTER 统一到strings.xml或dimens.xml / 自动给出错误修复方案
     
 
     

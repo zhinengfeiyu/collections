@@ -61,6 +61,8 @@ IDE原来的快捷键：
     按文件名打开文件
 - CTRL+E <br>
     打开最近浏览的文件
+- CTRL+Q <br>
+    光标跳转到上次<strong>修改了</strong>的地方   
 - 在XML硬编码的字符串或尺寸值光标处 ALT+ENTER 统一到strings.xml或dimens.xml / 自动给出错误修复方案
     
 
@@ -73,4 +75,4 @@ Android Studio的类列表中，对于不同类文件的标识：
 - 对于final类，左上角用白点表示；
 - 其他一般的类用蓝色背景"C"表示。
 
-在打开一个文件的情况下，打开该文件所在的目录，ctrl+单击包名
+- CTRL+单击类文件Tab，在IDE外面(磁盘)打开类文件

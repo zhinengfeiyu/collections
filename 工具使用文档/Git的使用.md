@@ -23,7 +23,7 @@
 - git checkout 分支名：切换到指定分支，如果该分支不存在则报错
 - git checkout -：切换回上一分支。注意，多次执行该命令只会在两个分支之间来回切换，即当前分支和上次操作的分支，类似于循环执行后退和前进命令
 - git checkout -b 分支名：创建新分支并切换到该分支，相当于上面两条命令先后执行，如果分支已存在则报错，并不会切换过去
-- git branch -d 分支名：删除指定分支，必须在本分支上删除当前所在的分支，必须在其他分支上删除
+- git branch -d 分支名：删除指定分支，不能在本分支上删除当前所在的分支，必须在其他分支上删除
 - git merge 分支名：使当前所在分支内容和merge后面指定的分支内容一致，也就是修改当前所在的分支，接着删除merge后指定的分支也可以
 - git remote (-v)：查看远程库信息，加上-v查看详细信息
 - git config --global alias.st status / git config --global alias.psm 'push origin master' 指定除"git"之外的单词或单词组合的别名

@@ -18,7 +18,8 @@
 - git reflog：查看版本操作历史，显示缩略版本号、commit备注
 - git checkout ./-- 不带引号的文件名：撤销工作区修改。如果存在add但没有commit的内容，则回到add后的状态，删除没有add的修改；如果没有add的内容，则回到最近一次commit完的状态
 - git checkout -- 文件名：在commit之前执行，可恢复删除的文件
-- git branch：查看当前所有分支，当前所在的分支前面加*
+- git branch：查看本地所有分支，当前所在的分支前面加*
+- git branch -a：查看本地和服务器分支，服务器分支用红色标出
 - git branch 分支名：创建新分支，但不切换过去，如果当前已存在该分支则报错
 - git checkout 分支名：切换到指定分支，如果该分支不存在则报错
 - git checkout -：切换回上一分支。注意，多次执行该命令只会在两个分支之间来回切换，即当前分支和上次操作的分支，类似于循环执行后退和前进命令
@@ -26,4 +27,5 @@
 - git branch -d 分支名：删除指定分支，不能在本分支上删除当前所在的分支，必须在其他分支上删除
 - git merge 分支名：使当前所在分支内容和merge后面指定的分支内容一致，也就是修改当前所在的分支，接着删除merge后指定的分支也可以
 - git remote (-v)：查看远程库信息，加上-v查看详细信息
+- git push origin :待删除的远程分支 ： 删除掉远程分支
 - git config --global alias.st status / git config --global alias.psm 'push origin master' 指定除"git"之外的单词或单词组合的别名

@@ -27,5 +27,5 @@
 - git branch -d 分支名：删除指定分支，不能在本分支上删除当前所在的分支，必须在其他分支上删除
 - git merge 分支名：使当前所在分支内容和merge后面指定的分支内容一致，也就是修改当前所在的分支，接着删除merge后指定的分支也可以
 - git remote (-v)：查看远程库信息，加上-v查看详细信息
-- git push origin :待删除的远程分支 ： 删除掉远程分支
+- git push origin :待删除的远程分支 / git push --delete origin 待删除的远程分支： 删除掉远程分支
 - git config --global alias.st status / git config --global alias.psm 'push origin master' 指定除"git"之外的单词或单词组合的别名

@@ -15,6 +15,7 @@
 - git log：查看commit历史，包括时间、作者、版本号、commit备注
 - git log --pretty=oneline：查看commit历史，只显示时间和commit备注
 - git reset --hard 版本号：指定往前或往后穿越到任意一个版本，版本号通过git reflog查看
+- git reset --hard HEAD^/HEAD^^：回退到上个版本/上上个版本
 - git reflog：查看版本操作历史，显示缩略版本号、commit备注
 - git checkout ./-- 不带引号的文件名：撤销工作区修改。如果存在add但没有commit的内容，则回到add后的状态，删除没有add的修改；如果没有add的内容，则回到最近一次commit完的状态
 - git checkout -- 文件名：在commit之前执行，可恢复删除的文件

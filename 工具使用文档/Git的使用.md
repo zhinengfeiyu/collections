@@ -11,6 +11,7 @@
 - dir：查看当前文件夹下的所有文件
 
 - git init：把当前目录变成git可以管理的仓库
+- git remote rm origin：删除关联的远程库
 - git diff 文件名：查看修改了什么内容
 - git log：查看commit历史，包括时间、作者、版本号、commit备注
 - git log --pretty=oneline：查看commit历史，只显示时间和commit备注

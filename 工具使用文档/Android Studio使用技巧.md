@@ -63,6 +63,8 @@ IDE原来的快捷键：
     打开最近浏览的文件
 - CTRL+Q <br>
     光标跳转到上次<strong>修改了</strong>的地方   
+- ALT+INSERT <br>
+    等同于右键->Generate
 - 在XML硬编码的字符串或尺寸值光标处 ALT+ENTER 统一到strings.xml或dimens.xml / 自动给出错误修复方案
     
 

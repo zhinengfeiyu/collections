@@ -2,9 +2,9 @@ IDE原来的快捷键：
 
 文件操作：
 
-- ALT+SHIFT+R <br>
+- ALT+SHIFT+R  
     重命名某个文件，等同于右键某个文件->Refactor->Rename，两步操作换一步
-- CTRL+SHIFT+C <br>
+- CTRL+SHIFT+C
     复制文件在整个磁盘的绝对路径
 - CTRL+ALT+SHIFT+C <br>
     复制文件在当前项目的路径，即在绝对路径的基础上，把“项目名/”及以前的部分全部去掉

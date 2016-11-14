@@ -1,7 +1,7 @@
 
-[InputType官方介绍](https://developer.android.com/reference/android/widget/TextView.html#attr_android:inputType)<br>
+### [InputType官方介绍](https://developer.android.com/reference/android/widget/TextView.html#attr_android:inputType)
 
-Android中各种InputType代表的含义：<br>
+Android中各种InputType代表的含义：  
 - none, text, textVisiblePassword: 无任何输入限制
 - textMultiLine: 允许多行输入（默认EditText只允许单行输入，即不换行）
 - textPassword: 无任何输入限制，但是以"."代替输入的字符

@@ -1,15 +1,21 @@
 ## 关于Shape的总结
+
 1. Shape的基础子元素共有6个：corners, gradient, solid, stroke, padding, size
+
 2. Shape的xml标准书写格式：  
+
     <?xml version="1.0" encoding="utf-8"?>
     <shape xmlns:android="http://schemas.android.com/apk/res/android"
         android:shape="rectangle">
         ……
     </shape>
+    
 3. Shape可以有四种形状：rectangle(矩形，默认形状)，oval(椭圆形)，ring(水平线)，ring(环形)
+
 4. 关于corners元素：  
 	corners元素只适用于rectangle!  
 	总共有5个属性，一个总的圆角半径，或者四个角分别设置圆角半径，如果发生冲突，以该角单独设定的为准，与书写顺序无关。
+	
 5. 关于solid/gradient元素：  
      这两个元素均表示填充颜色，故而会产生冲突。  
      冲突的处理原则为，二选一，按照xml中的定义顺序，谁定义在后面，就选择谁，抛弃在前面定义的。  
@@ -22,12 +28,12 @@
         当type为radial时，必须设置gradientRadius，即终结颜色最早出现的位置，距中心半径多少，从这一位置往外，就全是以终结颜色填充了。可选属性是centerX和centerY，是float型，取值0-1.0，默认0.5即中心位置。  
         当type为sweep时，只能设置起始和结束颜色，而且渐变是固定从3点钟位置开始，按照顺时针方向渐变。
 
-6. 关于stroke元素
+6. 关于stroke元素  
 	表示描边。共有4个属性：color, width, dashWidth, dashGap  
 	width表示描边的粗细，边的中心以shape的长宽实际边界为准，向两边扩散。  
 	dashWidth, dashGap表示以描边画成虚线，这两个属性必须成对出现，缺一不可，分别表示单段虚线的长度和每两段虚线的间隔。
 
-7. 关于size元素
+7. 关于size元素  
 	仅用于定义长宽，只有width和height两个属性
 
 8. shape类型为ring时  

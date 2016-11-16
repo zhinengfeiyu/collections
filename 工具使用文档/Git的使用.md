@@ -51,25 +51,31 @@
 2. cat命令：
     - cat <<'eof'>> aa.txt(去掉引号)：多行输入，最后输入eof结束输入，不输按enter即换行
     - cat <<'eof'> aa.txt(去掉引号)：同上，不过是覆盖原输入
-    
 
-- 按q或者ctrl+C：命令退不出来时，中断操作，比如log
-- PgUp/PgDn/向上箭头/向下箭头：输入前面输过的命令
-- md 目录名：在当前目录下创建子目录
-- cd\\：退回到根目录
-- dir：查看当前文件夹下的所有文件
-
-- git init：把当前目录变成git可以管理的仓库
-- git remote rm origin：删除关联的远程库
-- git diff 文件名：查看修改了什么内容
+### Git命令：
+##### git本地查看命令
 - git log：查看commit历史，包括时间、作者、版本号、commit备注
 - git log --pretty=oneline：查看commit历史，只显示时间和commit备注
+- git show (版本号)：查看提交的详细信息，包括diff的信息。如果没有版本号，则查看head
+- git diff 版本号1 版本号2：比较差异，注意是把前一个作为旧版，后一个作为新版，二者交换书写顺序会导致不同的比较结果
+
+
+##### git本地修改命令
+- git rm 文件名：从版本库删除一个文件，与git add正好相对，同时工作目录里该文件也会删除。  
+                该命令与在工作目录删文件后再add一样效果
+- git mv 文件名1 文件名2：同上，重命名文件，效果等同于先执行git rm后执行git add
+
+
+##### git服务端交互命令
+- git remote rm origin：删除关联的远程库
+- git config --global alias.st status / git config --global alias.psm 'push origin master' 指定除"git"之外的单词或单词组合的别名
+- git config --unset --global user.email/alias.st：与上面的命令相对，移除设置
+
 - git reset --hard 版本号：指定往前或往后穿越到任意一个版本，版本号通过git reflog查看
 - git reset --hard HEAD^/HEAD^^：回退到上个版本/上上个版本
 - git reflog：查看版本操作历史，显示缩略版本号、commit备注
 - git checkout ./-- 不带引号的文件名：撤销工作区修改。如果存在add但没有commit的内容，则回到add后的状态，删除没有add的修改；如果没有add的内容，则回到最近一次commit完的状态
 - git checkout -- 文件名：在commit之前执行，可恢复删除的文件
-- git branch：查看本地所有分支，当前所在的分支前面加*
 - git branch -a：查看本地和服务器分支，服务器分支用红色标出
 - git branch 分支名：创建新分支，但不切换过去，如果当前已存在该分支则报错
 - git checkout 分支名：切换到指定分支，如果该分支不存在则报错
@@ -80,4 +86,3 @@
 - git merge 分支名：使当前所在分支内容和merge后面指定的分支内容一致，也就是修改当前所在的分支，接着删除merge后指定的分支也可以
 - git remote (-v)：查看远程库信息，加上-v查看详细信息
 - git push origin :待删除的远程分支 / git push --delete origin 待删除的远程分支： 删除掉远程分支
-- git config --global alias.st status / git config --global alias.psm 'push origin master' 指定除"git"之外的单词或单词组合的别名

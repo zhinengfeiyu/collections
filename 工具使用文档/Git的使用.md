@@ -61,7 +61,9 @@
 - git log --stat：列举时加上更改的文件以及每个文件有多少行发生改动
 - git log 提交名1..提交名2：列举从指定两个提交之间的所有提交(包括)，并且提交1应早于提交2
 - git log -数字 提交名：输出限制为指定数量个提交，比如-2即只会输出前2个
+- git log --graph：以提交图的形式显示
 - head^=head~1 head^^=head~2 以此类推
+- ORIG_HEAD：在merge和reset操作之后，会在移动head的同时，把先前版本的head记录到orig_head中
 - git rev-parse 标签/相对提交名/简写：把任何形式的提交名转换为绝对提交名
 - git show (提交名)：查看提交的详细信息，包括diff的信息。如果没有版本号，则查看head
 - git diff：显示工作目录和索引之间的差异，与已经commit的东西无关，未追踪的文件不会参与比较
@@ -78,6 +80,7 @@
 - git reset --soft 提交名：仅修改head指向，索引和工作区不变，可用于修改commit信息
 - git commit --amend：等同于先执行git reset --soft，再commit。可用于修改提交信息，或者改动后再次提交，  
                       但是会直接替换原来的head处提交，而不是新建提交
+- git checkout -b 新分支名 起始提交处：从起始提交处拉出一个新分支，起始提交处默认是head，实际操作可以改为head^等                      
 
 
 ##### git服务端交互命令

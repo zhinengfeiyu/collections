@@ -20,5 +20,23 @@ xmlns:toolbar=http://schemas.android.com/apk/res/cn.zzm.toolbar <br>
 自定义View如果是内部类，全名写成：com.xxx.xxx.OuterClass$InnerClass
 
 
+##### 源码阅读记录（View）
+1. 调用setOnClickListener方法时，系统会自动将clickable变量置为true
+2. 在xml中声明onClick属性，需要在对应的Context(Activity)或其父类中声明对应的public void 任意方法名(View v){..}，  
+  其中访问权限必须是public；参数类型必须是View；方法名可以任取，但是必须与xml中一致。  
+  不过如果以上条件不满足，xml中会自动提示，如果正确的话，Activity和xml之间是可以通过ctrl单击跳转的。  
+  但是系统是通过反射实现的，第一次调用onClick会从传给View的Context开始解析，如果当前Context没有，会去baseContext寻找；  
+  找到method后，每次调onClick方法都会直接反射调用method的invoke方法。
+3. layoutDirection属性指定布局是从左往右还是从右往左，有LTR、RTL、INHERIT(从父布局继承，默认值)、LOCALE
+4. 没有paddingStart/paddingEnd属性的情况下，当padding属性定义后，上下左右边距肯定是一样的，另外定义的paddingLeft等失效
 
-
+##### 源码阅读记录（ViewGroup）
+1. OnHierarchyChangeListener这个内部类可以用来监听子View被添加或删除事件
+2. ViewGroup.MarginLayoutParams继承自ViewGroup.LayoutParams，多出了四个方向的margin值以及marginStart,marginEnd。  
+    xml中，当设置了margin属性时，marginLeft等单方向的属性都会失效。
+    
+##### 源码阅读记录（LinearLayout）
+1. LinearLayout.LayoutParams继承自ViewGroup.MarginLayoutParams，多出了weight和gravity两个属性，  
+    对应于xml里的layout_weight和layout_gravity
+2. 在layout_weight>0的情况下，API23及以上会忽略layout_width/layout_height，API23以下会考虑宽/高属性，并加入到总的剩余空间中
+3. 当LinearLayout中设置了gravity，子View中设置了layout_gravity，则以layout_gravity为准

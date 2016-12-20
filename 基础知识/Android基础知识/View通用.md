@@ -40,3 +40,18 @@ xmlns:toolbar=http://schemas.android.com/apk/res/cn.zzm.toolbar <br>
     对应于xml里的layout_weight和layout_gravity
 2. 在layout_weight>0的情况下，API23及以上会忽略layout_width/layout_height，API23以下会考虑宽/高属性，并加入到总的剩余空间中
 3. 当LinearLayout中设置了gravity，子View中设置了layout_gravity，则以layout_gravity为准
+
+##### 源码阅读记录（LayoutInflater）
+1. 基本语法：View v = inflater.inflate(xml资源, root, attachToRoot)
+2. 如果xml资源的根标签是merge，则root必须不为null，attachToRoot必须不为false；其他根标签对后2个参数无限制。  
+    以下规则只对非merge根标签适用：
+3. 如果root!=null且attachToRoot==false，则返回的view是xml对应的控件。  
+    此时root唯一的作用是给该view设置LayoutParams，具体地说，root唯一的作用是让view生成指定类型的LayoutParams，  
+    此时root的实际类型(不是声明类型！)才是有用的，root里面具体有哪些属性并没有作用。  
+    根据root类型的不同，生成的LayoutParams类型也不同，比如root是LinearLayout，则设置进view的是LinearLayout.LayoutParams，  
+    此时view的xml属性除了默认的layout_width,layout_height以外，所有margin属性和layout_gravity,layout_weight也会被设置进去。
+4. 如果root==null，此时attachToRoot无论是什么值都不会被系统考虑。同上，返回的view也是xml对应的控件。  
+    不同的是，此时view的LayoutParams属性是null，因为不会根据layout_XXX属性去生成。
+5. 如果root!=null且attachToRoot==true，则除了会根据root生成对应类型的LayoutParams(规则同3)以外，还会调用root.addView方法，  
+    根据该LayoutParams将view添加到root里面。此时返回结果不再是xml对应控件，而是addView之后的root。
+6. inflater.inflate(R.layout.XXX, root)等同于inflater.inflate(R.layout.XXX, root, root!=null)

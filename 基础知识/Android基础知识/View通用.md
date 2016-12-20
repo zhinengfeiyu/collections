@@ -55,3 +55,21 @@ xmlns:toolbar=http://schemas.android.com/apk/res/cn.zzm.toolbar <br>
 5. 如果root!=null且attachToRoot==true，则除了会根据root生成对应类型的LayoutParams(规则同3)以外，还会调用root.addView方法，  
     根据该LayoutParams将view添加到root里面。此时返回结果不再是xml对应控件，而是addView之后的root。
 6. inflater.inflate(R.layout.XXX, root)等同于inflater.inflate(R.layout.XXX, root, root!=null)
+7. merge必须是根标签，include不能是根标签
+8. View的onFinishInflate回调时机：从XML解析完该View对应的标签，以及该标签里面的所有子元素，  
+    并把子元素对应的子View全部addView进来，然后父View把该View addView进来(父View的其他子View可能还没解析)。  
+    上面操作都完成会执行该回调
+9. requestFocus标签应作为某个View的子标签，作用是使得该View调用requestFocus()方法。  
+    requestFocus标签里面所有的深层次东西都会忽略，因为解析过程中会直接跳到requestFocus的结束标签
+10. 除了几个特殊的不直接表示控件的标签，以控件名字命名的直接表示控件的标签，必须包含layout_width和layout_height属性，  
+    否则映射过程中会抛异常
+11. 关于include标签：
+    - 如果include进来的layout文件是以merge作为根标签，则会原原本本地把该layout插入到include位置。  
+        原来的include标签其他属性都会失效，不能重写任何东西。
+    - 如果include进来的layout文件不以merge作为根标签，则有可能会根据include标签的部分属性作出覆盖。规则如下：
+    - 对于layout_XXX系列的属性，即用于生成对应LayoutParams的属性，解析过程中优先使用include标签的layout_XXX。  
+      如果include标签里缺失layout_width或layout_height，即生成LayoutParams失败，再去被导入的layout文件找。
+    - 系统选择layout_XXX时会全部使用include标签的或被导入的文件的，不可能出现交叉使用的情况。  
+        即，要么全部用include属性里的layout_XXX，要么全部用被导入文件的layout_XXX。
+    - include标签里的id属性和visibility属性会直接覆盖被导入文件的属性，如果include标签有定义的话
+    - 除了以上的layout属性，layout_XXX属性，id属性和visibility属性，其他属性在include标签里写了都没有效果

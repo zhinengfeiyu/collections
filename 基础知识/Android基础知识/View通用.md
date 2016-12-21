@@ -73,3 +73,24 @@ xmlns:toolbar=http://schemas.android.com/apk/res/cn.zzm.toolbar <br>
         即，要么全部用include属性里的layout_XXX，要么全部用被导入文件的layout_XXX。
     - include标签里的id属性和visibility属性会直接覆盖被导入文件的属性，如果include标签有定义的话
     - 除了以上的layout属性，layout_XXX属性，id属性和visibility属性，其他属性在include标签里写了都没有效果
+    
+##### 源码阅读记录（ViewStub）
+1. ViewStub基础使用方法
+
+        <ViewStub android:id="@+id/stub"
+                  android:inflatedId="@+id/subTree"
+                  android:layout="@layout/mySubTree"
+                  android:layout_width="120dip"
+                  android:layout_height="40dip" />
+        ViewStub stub = (ViewStub) findViewById(R.id.stub);
+        View inflated = stub.inflate(); 或者 stub.setVisibility(View.VISIBLE);
+        
+2. 替换ViewStub为具体的View有两个方法：inflate方法和setVisibility方法。二者区别：
+    - inflate方法只能调用一次，第二次调用时，因为ViewStub已经从父布局删除，会因为找不到父布局而崩溃。
+    - setVisibility方法可以无限次调用。但是第一次调用时，如果是gone，则相当于什么都没做，不计入次数；  
+      如果是invisible或者visible，都会执行inflate方法，而且无论是visible还是invisible会变成visible状态。
+      第二次开始，都会正常具体View的setVisibility方法
+    - 注意inflate方法是有返回值的，返回映射的View；setVisibility无返回值
+3. 被映射View的LayoutParams以ViewStub的layout_XXX为准
+4. ViewStub调用inflate方法会执行一次View的替换操作，执行前，必须要保证ViewStub有父布局，否则会崩溃
+5. 被映射的View的id与viewStub的id无关。如果有inflatedId，则用inflatedId；否则用被映射的layout根元素id

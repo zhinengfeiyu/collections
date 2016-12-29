@@ -94,3 +94,4 @@ xmlns:toolbar=http://schemas.android.com/apk/res/cn.zzm.toolbar <br>
 3. 被映射View的LayoutParams以ViewStub的layout_XXX为准
 4. ViewStub调用inflate方法会执行一次View的替换操作，执行前，必须要保证ViewStub有父布局，否则会崩溃
 5. 被映射的View的id与viewStub的id无关。如果有inflatedId，则用inflatedId；否则用被映射的layout根元素id
+6. 可能用到的回调方法：OnInflateListener。在执行完inflate方法后调用

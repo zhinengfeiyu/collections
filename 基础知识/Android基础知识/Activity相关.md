@@ -26,3 +26,32 @@
     而addContentView()不会先移除，直接执行addView()，因外层是FrameLayout，会直接覆盖在原布局上面
 8. startActivities(Intent[])可以一次性启动多个Activity，顺序按照数组声明的顺序，  
     视觉上是直接启动最后一个Activity
+9. 被启动的Activity获得前一个启动它的组件名字：getCallingActivity()，返回ComponentName。  
+    必须requestCode>=才能有返回，否则返回null
+10. isFinishing()通常用于在onPause()回调中判断Activity是不是要执行finish操作。  
+    finish是一整个过程，在向系统发出finish()请求后会先将isFinished状态置为true，以便后续过程能及时看到  
+11. recreate()方法用于重建当前Activity，与转屏后的操作类似，会走完生命周期到onDestroy()，
+    再走onCreate()到onResume()。执行此方法时，屏幕会闪一下
+12. 一个Activity可以从前面启动它的Activity上finish掉，而不是自己finish。  
+    方法是finishActivity(int requestCode)。当然requestCode必须>=0。  
+    因为不是自己finish掉的，onActivityResult()会有回调，但resultCode等返回数据设置无效，  
+    是默认的RESULT_CANCELED。如果requestCode匹配多个Activity，就都会finish掉
+    
+#### Activity启动模式
+1. singleTop模式下，Activity在栈顶启动自己的生命周期：  
+    onPause -> onNewIntent -> onResume
+2. singleTask模式下，Activity在栈顶启动自己的生命周期：  
+        onPause -> onNewIntent -> onResume
+3. singleTask模式下，同一个任务栈中，启动非栈顶的Activity：  
+        onNewIntent -> onRestart -> onStart -> onResume
+4. 虽然singleTask与FLAG_ACTIVITY_NEW_TASK意义相同，但是如果从Application启动Activity，只能使用后者。  
+    此时如果没有指定taskAffinity属性，被启动的Activity使用默认的任务栈；  
+    否则会在taskAffinity指定的任务栈启动。
+5. 不在同一任务栈的两个Activity，界面切换会出现明显的不连续性，在系统任务列表会出现在不同的两组
+6. 注意taskAffinity的命名，不能出现单独的单词，必须用点分隔的形式书写。如果不指定，默认与包名相同
+7. taskAffinity要与singleTask模式(静态或动态)一起用才有效，否则即使是与包名相同也无效
+8. Activity A启动standard模式的Activity B，B必定与A在同一个任务栈
+9. 因为任务栈的存在，Activity按返回键退出的顺序不一定与startActivity顺序相同。  
+    当前Activity所在的栈如果还有其他Activity，按返回键必定会先回到同栈的Activity。
+10. singleInstance模式下，Activity会处在单独的一个任务栈中，该任务栈不允许其他Activity加入。  
+    如果从该Activity启动一个standard模式的Activity，被启动的Activity会加入系统默认的任务栈。

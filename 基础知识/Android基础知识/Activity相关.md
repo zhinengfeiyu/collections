@@ -11,7 +11,7 @@
    如果启动Activity2时快速返回，可能产生如下流程：  
         Activity1:onPause()->Activity2:onCreate() onResume()->Activity1:onResume()，  
         没有onStop()和onRestart()
-3. onDestroy()有两种情形会被调用，要么是调用finish()方法，要么是系统杀死以腾出内存，  
+3. onDestroy()有两种情形会被调用，要么是调用finish()方法，要么是系统杀死或配置更改，  
     可以用isFinishing()来区分这两种情形。  
     按返回键退出界面，isFinishing()返回true；转屏触发onDestroy()，isFinishing()返回false。  
     onDestroy()回调不应该用来保存数据，而应该用来回收资源，比如结束线程。

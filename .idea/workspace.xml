@@ -4,6 +4,7 @@
     <list default="true" id="d1aa554c-c092-41dc-9c12-97b681bb2650" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/基础知识/Android基础知识/Activity相关.md" afterPath="$PROJECT_DIR$/基础知识/Android基础知识/Activity相关.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/工具使用文档/Android Studio使用技巧.md" afterPath="$PROJECT_DIR$/工具使用文档/Android Studio使用技巧.md" />
     </list>
     <ignored path="collections.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -23,84 +24,20 @@
     <favorites_list name="collections" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="View通用.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/基础知识/Android基础知识/View通用.md">
-          <provider editor-type-id="MarkdownPreviewEditor">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-            <state split_layout="FIRST">
-              <first_editor relative-caret-position="1824">
-                <caret line="96" column="47" selection-start-line="96" selection-start-column="47" selection-end-line="96" selection-end-column="47" />
-                <folding />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Activity相关.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/基础知识/Android基础知识/Activity相关.md">
-          <provider editor-type-id="MarkdownPreviewEditor">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="363">
-                <caret line="56" column="64" selection-start-line="56" selection-start-column="64" selection-end-line="56" selection-end-column="64" />
-                <folding />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="通用.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/基础知识/Android基础知识/通用.md">
-          <provider editor-type-id="MarkdownPreviewEditor">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="-297">
-                <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
-                <folding />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Android Studio使用技巧.md" pinned="false" current-in-tab="false">
+    <leaf>
+      <file leaf-file-name="Android Studio使用技巧.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/工具使用文档/Android Studio使用技巧.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="19">
+                <caret line="52" column="0" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
           <provider editor-type-id="MarkdownPreviewEditor">
             <state />
-          </provider>
-          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-            <state split_layout="FIRST">
-              <first_editor relative-caret-position="1976">
-                <caret line="104" column="29" selection-start-line="104" selection-start-column="29" selection-end-line="104" selection-end-column="29" />
-                <folding />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="重要源码网址.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/基础知识/Android基础知识/重要源码网址.md">
-          <provider selected="true" editor-type-id="MarkdownPreviewEditor">
-            <state />
-          </provider>
-          <provider editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="0">
-                <caret line="0" column="137" selection-start-line="0" selection-start-column="137" selection-end-line="0" selection-end-column="137" />
-                <folding />
-              </first_editor>
-              <second_editor />
-            </state>
           </provider>
         </entry>
       </file>
@@ -132,11 +69,12 @@
         <option value="$PROJECT_DIR$/基础知识/Java基础知识/继承.md" />
         <option value="$PROJECT_DIR$/基础知识/Java基础知识/文件.md" />
         <option value="$PROJECT_DIR$/基础知识/Java基础知识/输入输出.md" />
-        <option value="$PROJECT_DIR$/工具使用文档/Android Studio使用技巧.md" />
         <option value="$PROJECT_DIR$/基础知识/Java基础知识/异常.md" />
         <option value="$PROJECT_DIR$/基础知识/Android基础知识/View通用.md" />
         <option value="$PROJECT_DIR$/基础知识/Android基础知识/重要源码网址.md" />
         <option value="$PROJECT_DIR$/基础知识/Android基础知识/Activity相关.md" />
+        <option value="$PROJECT_DIR$/基础知识/Android基础知识/事件体系.md" />
+        <option value="$PROJECT_DIR$/工具使用文档/Android Studio使用技巧.md" />
       </list>
     </option>
   </component>
@@ -165,12 +103,17 @@
       <hideEmptyPackages />
       <abbreviatePackageNames />
       <autoscrollToSource />
-      <autoscrollFromSource />
+      <autoscrollFromSource ProjectPane="true" />
       <sortByType />
       <manualOrder />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="AndroidView">
+        <subPane />
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -203,45 +146,8 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="collections" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="collections" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="基础知识" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="collections" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="collections" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="基础知识" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Android基础知识" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="AndroidView">
-        <subPane />
-      </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -252,12 +158,17 @@
     <property name="MemberChooser.sorted" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="MemberChooser.copyJavadoc" value="false" />
-    <property name="settings.editor.selected.configurable" value="editing.templates" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="android.project.structure.last.selected" value="SDK Location" />
     <property name="android.project.structure.proportion" value="0.15" />
     <property name="android.sdk.path" value="E:/AndroidDevelopingEnvironment/SDK" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\MyAndroidProjects\collections\基础知识" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android App">
@@ -526,16 +437,16 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16780822" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14726028" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22023809" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22321428" sideWeight="0.48393574" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22321428" sideWeight="0.5160643" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -545,6 +456,33 @@
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Structure" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32876712" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14726028" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22321428" sideWeight="0.48393574" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22321428" sideWeight="0.5160643" order="7" side_tool="true" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -562,36 +500,7 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/常用代码段/Fragment.md">
-      <provider editor-type-id="MarkdownPreviewEditor">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/常用代码段/自定义View.md">
-      <provider editor-type-id="MarkdownPreviewEditor">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/基础知识/Android基础知识/TextView.md">
-      <provider editor-type-id="MarkdownPreviewEditor">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
           <first_editor relative-caret-position="19">
@@ -600,11 +509,11 @@
           <second_editor />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/基础知识/Android基础知识/Context.md">
       <provider editor-type-id="MarkdownPreviewEditor">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/基础知识/Android基础知识/Context.md">
       <provider editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
           <first_editor relative-caret-position="38">
@@ -613,11 +522,11 @@
           <second_editor />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/常用代码段/Fragment.md">
       <provider editor-type-id="MarkdownPreviewEditor">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/常用代码段/Fragment.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
           <first_editor relative-caret-position="0">
@@ -625,12 +534,12 @@
           </first_editor>
           <second_editor />
         </state>
+      </provider>
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/常用代码段/自定义View.md">
-      <provider editor-type-id="MarkdownPreviewEditor">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
           <first_editor relative-caret-position="0">
@@ -638,12 +547,12 @@
           </first_editor>
           <second_editor />
         </state>
+      </provider>
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/常用代码段/AdapterView.md">
-      <provider editor-type-id="MarkdownPreviewEditor">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
           <first_editor relative-caret-position="38">
@@ -652,11 +561,11 @@
           <second_editor />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/基础知识/Android基础知识/TextView.md">
       <provider editor-type-id="MarkdownPreviewEditor">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/基础知识/Android基础知识/TextView.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
           <first_editor relative-caret-position="19">
@@ -665,11 +574,11 @@
           <second_editor />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/基础知识/Android基础知识/Context.md">
       <provider editor-type-id="MarkdownPreviewEditor">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/基础知识/Android基础知识/Context.md">
       <provider editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
           <first_editor relative-caret-position="38">
@@ -678,11 +587,11 @@
           <second_editor />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/基础知识/Android基础知识/RelativeLayout总结.md">
       <provider editor-type-id="MarkdownPreviewEditor">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/基础知识/Android基础知识/RelativeLayout总结.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
           <first_editor relative-caret-position="532">
@@ -691,11 +600,11 @@
           <second_editor />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/基础知识/Android基础知识/layout_weight属性总结.md">
-      <provider selected="true" editor-type-id="MarkdownPreviewEditor">
+      <provider editor-type-id="MarkdownPreviewEditor">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/基础知识/Android基础知识/layout_weight属性总结.md">
       <provider editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
           <first_editor relative-caret-position="0">
@@ -703,6 +612,9 @@
           </first_editor>
           <second_editor />
         </state>
+      </provider>
+      <provider selected="true" editor-type-id="MarkdownPreviewEditor">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.idea/encodings.xml">
@@ -713,9 +625,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/基础知识/Android基础知识/inputType.md">
-      <provider editor-type-id="MarkdownPreviewEditor">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
           <first_editor relative-caret-position="0">
@@ -724,11 +633,11 @@
           <second_editor />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/基础知识/Android基础知识/Shape总结.md">
       <provider editor-type-id="MarkdownPreviewEditor">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/基础知识/Android基础知识/Shape总结.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
           <first_editor relative-caret-position="836">
@@ -736,6 +645,9 @@
           </first_editor>
           <second_editor />
         </state>
+      </provider>
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.idea/collections.iml">
@@ -747,9 +659,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/基础知识/Android基础知识/inputType" />
     <entry file="file://$PROJECT_DIR$/基础知识/Android基础知识/图片处理.md">
-      <provider editor-type-id="MarkdownPreviewEditor">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
           <first_editor relative-caret-position="171">
@@ -758,11 +667,11 @@
           <second_editor />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/常用代码段/图片处理.md">
       <provider editor-type-id="MarkdownPreviewEditor">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/常用代码段/图片处理.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
           <first_editor relative-caret-position="-584">
@@ -771,11 +680,11 @@
           <second_editor />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/工具使用文档/LeakCanary的使用.md">
       <provider editor-type-id="MarkdownPreviewEditor">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/工具使用文档/LeakCanary的使用.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
           <first_editor relative-caret-position="190">
@@ -784,11 +693,11 @@
           <second_editor />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/工具使用文档/MarkDown的使用.md">
       <provider editor-type-id="MarkdownPreviewEditor">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/工具使用文档/MarkDown的使用.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
           <first_editor relative-caret-position="0">
@@ -797,11 +706,11 @@
           <second_editor />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/常用代码段/AdapterView.md">
       <provider editor-type-id="MarkdownPreviewEditor">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/常用代码段/AdapterView.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
           <first_editor relative-caret-position="38">
@@ -810,11 +719,11 @@
           <second_editor />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/常用代码段/Fragment.md">
       <provider editor-type-id="MarkdownPreviewEditor">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/常用代码段/Fragment.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
           <first_editor relative-caret-position="0">
@@ -822,12 +731,12 @@
           </first_editor>
           <second_editor />
         </state>
+      </provider>
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/常用代码段/自定义View.md">
-      <provider editor-type-id="MarkdownPreviewEditor">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
           <first_editor relative-caret-position="0">
@@ -836,11 +745,11 @@
           <second_editor />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/基础知识/Android基础知识/TextView.md">
       <provider editor-type-id="MarkdownPreviewEditor">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/基础知识/Android基础知识/TextView.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
           <first_editor relative-caret-position="19">
@@ -849,11 +758,11 @@
           <second_editor />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/基础知识/Android基础知识/Context.md">
       <provider editor-type-id="MarkdownPreviewEditor">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/基础知识/Android基础知识/Context.md">
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -867,11 +776,11 @@
           <second_editor />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/基础知识/Android基础知识/RelativeLayout总结.md">
       <provider editor-type-id="MarkdownPreviewEditor">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/基础知识/Android基础知识/RelativeLayout总结.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
           <first_editor relative-caret-position="532">
@@ -880,11 +789,11 @@
           <second_editor />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/基础知识/Android基础知识/layout_weight属性总结.md">
-      <provider selected="true" editor-type-id="MarkdownPreviewEditor">
+      <provider editor-type-id="MarkdownPreviewEditor">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/基础知识/Android基础知识/layout_weight属性总结.md">
       <provider editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
           <first_editor relative-caret-position="0">
@@ -892,6 +801,9 @@
           </first_editor>
           <second_editor />
         </state>
+      </provider>
+      <provider selected="true" editor-type-id="MarkdownPreviewEditor">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.idea/encodings.xml">
@@ -902,9 +814,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/基础知识/Android基础知识/Shape总结.md">
-      <provider editor-type-id="MarkdownPreviewEditor">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
           <first_editor relative-caret-position="836">
@@ -913,11 +822,11 @@
           <second_editor />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/基础知识/Android基础知识/动画.md">
       <provider editor-type-id="MarkdownPreviewEditor">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/基础知识/Android基础知识/动画.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
           <first_editor relative-caret-position="0">
@@ -925,6 +834,9 @@
           </first_editor>
           <second_editor />
         </state>
+      </provider>
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
@@ -935,9 +847,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/基础知识/Android基础知识/AdapterView方法总结.md">
-      <provider editor-type-id="MarkdownPreviewEditor">
-        <state />
-      </provider>
       <provider editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
           <first_editor relative-caret-position="0">
@@ -945,12 +854,12 @@
           </first_editor>
           <second_editor />
         </state>
+      </provider>
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/基础知识/Java基础知识/细节.md">
-      <provider selected="true" editor-type-id="MarkdownPreviewEditor">
-        <state />
-      </provider>
       <provider editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
           <first_editor relative-caret-position="0">
@@ -958,12 +867,12 @@
           </first_editor>
           <second_editor />
         </state>
+      </provider>
+      <provider selected="true" editor-type-id="MarkdownPreviewEditor">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/基础知识/Java基础知识/内部类.md">
-      <provider selected="true" editor-type-id="MarkdownPreviewEditor">
-        <state />
-      </provider>
       <provider editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
           <first_editor relative-caret-position="0">
@@ -971,12 +880,12 @@
           </first_editor>
           <second_editor />
         </state>
+      </provider>
+      <provider selected="true" editor-type-id="MarkdownPreviewEditor">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/基础知识/Java基础知识/泛型.md">
-      <provider selected="true" editor-type-id="MarkdownPreviewEditor">
-        <state />
-      </provider>
       <provider editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
           <first_editor relative-caret-position="0">
@@ -985,11 +894,11 @@
           <second_editor />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/工具使用文档/Git的使用.md">
-      <provider editor-type-id="MarkdownPreviewEditor">
+      <provider selected="true" editor-type-id="MarkdownPreviewEditor">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/工具使用文档/Git的使用.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
           <first_editor relative-caret-position="1995">
@@ -998,11 +907,11 @@
           <second_editor />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/工具使用文档/live template使用细节.md">
       <provider editor-type-id="MarkdownPreviewEditor">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/工具使用文档/live template使用细节.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
           <first_editor relative-caret-position="228">
@@ -1010,6 +919,9 @@
           </first_editor>
           <second_editor />
         </state>
+      </provider>
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.idea/modules.xml">
@@ -1020,9 +932,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/基础知识/Java基础知识/继承.md">
-      <provider editor-type-id="MarkdownPreviewEditor">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
           <first_editor relative-caret-position="266">
@@ -1031,11 +940,11 @@
           <second_editor />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/基础知识/Java基础知识/文件.md">
       <provider editor-type-id="MarkdownPreviewEditor">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/基础知识/Java基础知识/文件.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
           <first_editor relative-caret-position="209">
@@ -1044,11 +953,11 @@
           <second_editor />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/基础知识/Android基础知识/Fragment.md">
       <provider editor-type-id="MarkdownPreviewEditor">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/基础知识/Android基础知识/Fragment.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="0">
@@ -1057,11 +966,11 @@
           <second_editor />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/基础知识/Android基础知识/inputType.md">
       <provider editor-type-id="MarkdownPreviewEditor">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/基础知识/Android基础知识/inputType.md">
       <provider editor-type-id="text-editor">
         <state relative-caret-position="95">
           <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
@@ -1075,11 +984,11 @@
           <second_editor />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/基础知识/Java基础知识/输入输出.md">
       <provider editor-type-id="MarkdownPreviewEditor">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/基础知识/Java基础知识/输入输出.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
           <first_editor relative-caret-position="931">
@@ -1088,11 +997,11 @@
           <second_editor />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/基础知识/Java基础知识/异常.md">
       <provider editor-type-id="MarkdownPreviewEditor">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/基础知识/Java基础知识/异常.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
           <first_editor relative-caret-position="380">
@@ -1101,103 +1010,120 @@
           <second_editor />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/基础知识/Android基础知识/重要源码网址.md">
-      <provider selected="true" editor-type-id="MarkdownPreviewEditor">
-        <state />
-      </provider>
-      <provider editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="137" selection-start-line="0" selection-start-column="137" selection-end-line="0" selection-end-column="137" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/工具使用文档/Android Studio使用技巧.md">
       <provider editor-type-id="MarkdownPreviewEditor">
         <state />
-      </provider>
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="1976">
-            <caret line="104" column="29" selection-start-line="104" selection-start-column="29" selection-end-line="104" selection-end-column="29" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/基础知识/Android基础知识/View通用.md">
-      <provider editor-type-id="MarkdownPreviewEditor">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="1824">
-            <caret line="96" column="47" selection-start-line="96" selection-start-column="47" selection-end-line="96" selection-end-column="47" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/基础知识/Android基础知识/文本输入.md">
-      <provider editor-type-id="MarkdownPreviewEditor">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="0">
             <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
+      </provider>
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/基础知识/Android基础知识/字符串资源.md">
-      <provider editor-type-id="MarkdownPreviewEditor">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="0">
             <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
+      </provider>
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/基础知识/Android基础知识/通用.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="209">
+            <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
       <provider editor-type-id="MarkdownPreviewEditor">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/基础知识/Android基础知识/View通用.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="-297">
-            <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
-            <folding />
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="375">
+            <caret line="96" column="47" selection-start-line="96" selection-start-column="47" selection-end-line="96" selection-end-column="47" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/基础知识/PhoneWindow源码.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="329">
+          <caret line="633" column="9" selection-start-line="633" selection-start-column="9" selection-end-line="633" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/基础知识/Android基础知识/Activity相关.md">
+    <entry file="file://$PROJECT_DIR$/基础知识/Android基础知识/事件体系.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="228">
+            <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
       <provider editor-type-id="MarkdownPreviewEditor">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/基础知识/Android基础知识/重要源码网址.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="363">
-            <caret line="56" column="64" selection-start-line="56" selection-start-column="64" selection-end-line="56" selection-end-column="64" />
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="137" selection-start-line="0" selection-start-column="137" selection-end-line="0" selection-end-column="137" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/基础知识/Android基础知识/Activity相关.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="375">
+            <caret line="52" column="40" selection-start-line="52" selection-start-column="40" selection-end-line="52" selection-end-column="40" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/工具使用文档/Android Studio使用技巧.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="19">
+            <caret line="52" column="0" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
             <folding />
           </first_editor>
           <second_editor />
         </state>
+      </provider>
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
       </provider>
     </entry>
   </component>

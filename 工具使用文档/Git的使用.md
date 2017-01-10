@@ -103,3 +103,12 @@
 - git merge 分支名：使当前所在分支内容和merge后面指定的分支内容一致，也就是修改当前所在的分支，接着删除merge后指定的分支也可以
 - git remote (-v)：查看远程库信息，加上-v查看详细信息
 - git push origin :待删除的远程分支 / git push --delete origin 待删除的远程分支： 删除掉远程分支
+
+### adb命令：[adb使用官方链接](https://developer.android.google.cn/studio/command-line/adb.html)
+1. adb devices：显示所有连接的设备及其状态
+2. adb install apk路径：安装电脑上的apk到手机
+3. adb push 电脑文件路径 手机文件路径：复制电脑文件到手机
+4. adb pull 手机文件路径 电脑文件路径：复制手机文件到电脑。注意路径分隔符，手机路径是/，windows路径是双反斜杠。  
+    同时目标是自己取的文件名，而不是文件夹
+5. adb shell：进入远程shell命令，直接操控手机目录，按exit退出远程shell
+

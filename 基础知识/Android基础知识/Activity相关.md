@@ -55,3 +55,5 @@
     当前Activity所在的栈如果还有其他Activity，按返回键必定会先回到同栈的Activity。
 10. singleInstance模式下，Activity会处在单独的一个任务栈中，该任务栈不允许其他Activity加入。  
     如果从该Activity启动一个standard模式的Activity，被启动的Activity会加入系统默认的任务栈。
+11. AndroidManifest里声明的任何组件，如果要能被其他应用调用，必须<strong>显式</strong>地指定  
+    exported属性为true，否则应用会因找不到组件而崩溃

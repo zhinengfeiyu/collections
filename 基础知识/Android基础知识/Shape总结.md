@@ -4,18 +4,19 @@
 
 2. Shape的xml标准书写格式：  
 
-    <?xml version="1.0" encoding="utf-8"?>
-    <shape xmlns:android="http://schemas.android.com/apk/res/android"
-        android:shape="rectangle">
+    &lt;?xml version="1.0" encoding="utf-8"?&gt;
+    &lt;shape xmlns:android="http://schemas.android.com/apk/res/android"
+        android:shape="rectangle"&gt;
         ……
-    </shape>
-    
+    &lt;/shape&gt;
+
 3. Shape可以有四种形状：rectangle(矩形，默认形状)，oval(椭圆形)，ring(水平线)，ring(环形)
 
-4. 关于corners元素：  
-	corners元素只适用于rectangle!  
-	总共有5个属性，一个总的圆角半径，或者四个角分别设置圆角半径，如果发生冲突，以该角单独设定的为准，与书写顺序无关。
-	
+4.  关于corners元素：  
+  corners元素只适用于rectangle!  
+
+  总共有5个属性，一个总的圆角半径，或者四个角分别设置圆角半径，如果发生冲突，以该角单独设定的为准，与书写顺序无关。
+
 5. 关于solid/gradient元素：  
      这两个元素均表示填充颜色，故而会产生冲突。  
      冲突的处理原则为，二选一，按照xml中的定义顺序，谁定义在后面，就选择谁，抛弃在前面定义的。  

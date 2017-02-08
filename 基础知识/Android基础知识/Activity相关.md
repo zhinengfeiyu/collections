@@ -36,7 +36,7 @@
     方法是finishActivity(int requestCode)。当然requestCode必须>=0。  
     因为不是自己finish掉的，onActivityResult()会有回调，但resultCode等返回数据设置无效，  
     是默认的RESULT_CANCELED。如果requestCode匹配多个Activity，就都会finish掉
-    
+
 #### Activity启动模式
 1. singleTop模式下，Activity在栈顶启动自己的生命周期：  
     onPause -> onNewIntent -> onResume
@@ -55,5 +55,21 @@
     当前Activity所在的栈如果还有其他Activity，按返回键必定会先回到同栈的Activity。
 10. singleInstance模式下，Activity会处在单独的一个任务栈中，该任务栈不允许其他Activity加入。  
     如果从该Activity启动一个standard模式的Activity，被启动的Activity会加入系统默认的任务栈。
-11. AndroidManifest里声明的任何组件，如果要能被其他应用调用，必须<strong>显式</strong>地指定  
+11. AndroidManifest里声明的任何组件，如果要能被其他应用调用，必须**显式**地指定  
     exported属性为true，否则应用会因找不到组件而崩溃
+
+#### 隐式启动Activity
+1. 对于隐式启动Activity，如果没有找到匹配的IntentFilter，应用会直接崩溃；  
+  如果找到多个匹配的IntentFilter，系统会弹出选择框，选择启动哪个Activity
+2. 如果要隐式启动，Intent中的action必须要有，而且只能设置一个
+3. IntentFilter中可以设置多个action。注意匹配时action字符串区分大小
+4. 对于**所有的**隐式启动，系统**都会**给Intent自动加上`android.intent.category.DEFAULT`这个category，
+  因而所有的IntentFilter必须**显式**地加上这个category才能匹配上
+5. Intent可以设置多个category，IntentFilter也可以设置多个category。  
+  要能成功匹配，Intent里的category集合必须是IntentFilter里category集合的子集
+6. 如果要隐式启动其他应用的Activity，目标Activity不需要设置`exported=true`
+7. 隐式启动前，判断能否找到匹配的Activity方法：  
+  - `ComponentName c = intent.resolveActivity(getPackageManager())`，如果返回不为null则能找到
+  - `getPackageManager().resolveActivity(...)`或`getPackageManager().queryIntentActivities(...)`
+8. data和action匹配规则和定义规则类似，intent里只能指定一个data，IntentFilter里可以定义多个data
+9. 如果一个Intent既有显示启动又有隐式启动代码，则**以显示启动代码为准**，忽略隐式启动的代码

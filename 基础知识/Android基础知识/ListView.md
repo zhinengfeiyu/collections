@@ -3,3 +3,7 @@
 - ListView连续调用addHeaderView或addFooterView，先执行add的View都是在上面
 - 正常点击ListView，不会触发onItemSelected方法，即使调用了setOnItemSelectedListener方法
 - ListView自带分隔线，如果要做完全自定义的ListView，必须要写`android:divider="@null”`和`android:dividerHeight="0dp”`这两句话
+- ListView及所有的AbsListView，可以调用getCount获取包含headView和footerView在内的所有item数目，getLastVisiblePosition等同理
+- ListView在包含footer或header的情况下，getAdapter()方法获取到的是内部包含头尾的Adapter，不是setAdapter()传进去的Adapter
+- 直接把headerView或footerView设置成gone，并不会移除其占用的界面空间，只有对其子View执行操作才有效果
+- ListView的setSelection(int index)方法，传进来的index是ListView顶部的第一个可见位置

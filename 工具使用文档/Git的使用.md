@@ -76,7 +76,8 @@
 - git rm 文件名：从版本库删除一个文件，与git add正好相对，同时工作目录里该文件也会删除。  
                 该命令与在工作目录删文件后再add一样效果
 - git mv 文件名1 文件名2：同上，重命名文件，效果等同于先执行git rm后执行git add
-- git reset --hard 提交名：head指向、索引、工作目录内容全部改为与指定提交一致的状态，未追踪的文件除外
+- git reset --hard 提交名：head指向、索引、工作目录内容全部改为与指定提交一致的状态，未追踪的文件除外<br>
+    （注意：git reset —hard命令，等同于git reset —hard HEAD命令。如果是指定数字字母混合的提交名，至少需要4位数）
 - git reset (--mixed) 提交名 (文件名)：与工作目录无关，head指向、索引改为与指定提交一致的状态，可用于取消刚暂存的东西
 - git reset --soft 提交名：仅修改head指向，索引和工作区不变，可用于修改commit信息
 - git commit --amend：等同于先执行git reset --soft，再commit。可用于修改提交信息，或者改动后再次提交，  
@@ -104,6 +105,7 @@
 - git merge 分支名：使当前所在分支内容和merge后面指定的分支内容一致，也就是修改当前所在的分支，接着删除merge后指定的分支也可以
 - git remote (-v)：查看远程库信息，加上-v查看详细信息
 - git push origin :待删除的远程分支 / git push --delete origin 待删除的远程分支： 删除掉远程分支
+    （注意：执行git push操作，只会推送已提交的部分，其他已修改但未提交的还是留在本地，而且不会拒绝push）
 
 ### adb命令：[adb使用官方链接](https://developer.android.google.cn/studio/command-line/adb.html)
 1. adb devices：显示所有连接的设备及其状态

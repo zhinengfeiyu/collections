@@ -1,6 +1,6 @@
 [Fragment官方介绍](http://developer.android.com/intl/zh-cn/guide/components/fragments.html)
 
-Fragment与Activity的生命周期关系：<br>
+### Fragment与Activity的生命周期关系
 刚打开Activity：<br>
     Fragment onAttach > Fragment onCreate > Fragment onCreateView <br>
     > Activity onCreate > Fragment onActivityCreated <br>
@@ -28,6 +28,11 @@ Fragment添加后是否加入返回栈，生命周期都一样，pop即完全移
 
     
     
-写在xml中的静态Fragment，移除后虽然变成null，但视觉上并不会消失；只有在代码中动态添加的Fragment，移除后才会真正消失
-
-FragmentTransaction调用addToBackStack(null)可以在commit之前任何时候，包括在实施增删改Fragment之前调用，之后popBackStack的效果都是一样的
+### 具体使用细节
+- 写在xml中的静态Fragment，移除后虽然变成null，但视觉上并不会消失；只有在代码中动态添加的Fragment，移除后才会真正消失
+- FragmentTransaction调用addToBackStack(null)可以在commit之前任何时候，包括在实施增删改Fragment之前调用，
+    之后popBackStack的效果都是一样的
+- Fragment的onHiddenChanged(boolean)执行时机，在Activity onResume、onPause回调时不会回调该方法，
+    例如回到桌面、切换到别的应用、展示dialog等，在第一次创建该fragment时也不会回调该方法，
+    而在外面通过FragmentTransaction的show()、hide()方法执行时，会回调该方法
+- 

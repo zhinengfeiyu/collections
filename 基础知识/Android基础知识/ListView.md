@@ -1,0 +1,5 @@
+- 为了保持向Android4.4以下系统的兼容性，ListView必须先addHeaderView/addFooterView，再setAdapter，不能交换顺序
+- 在不干预ListView的divider的情况下，分割线仅在中间显示，最顶上和最底下没有分割线，header/footer和item之间也有分割线
+- ListView连续调用addHeaderView或addFooterView，先执行add的View都是在上面
+- 正常点击ListView，不会触发onItemSelected方法，即使调用了setOnItemSelectedListener方法
+- ListView自带分隔线，如果要做完全自定义的ListView，必须要写`android:divider="@null”`和`android:dividerHeight="0dp”`这两句话

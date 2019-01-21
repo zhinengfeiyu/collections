@@ -57,6 +57,8 @@
     如果从该Activity启动一个standard模式的Activity，被启动的Activity会加入系统默认的任务栈。
 11. AndroidManifest里声明的任何组件，如果要能被其他应用调用，必须**显式**地指定  
     exported属性为true，否则应用会因找不到组件而崩溃
+12. 在Android 4.4的手机上，`startActivityForResult(this, Act.class)`，
+    如果被启动的Act这个Activity的启动模式是singleTask，则setResult方法将不会产生效果
 
 #### 隐式启动Activity
 1. 对于隐式启动Activity，如果没有找到匹配的IntentFilter，应用会直接崩溃；  

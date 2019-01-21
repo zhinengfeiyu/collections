@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d1aa554c-c092-41dc-9c12-97b681bb2650" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="d1aa554c-c092-41dc-9c12-97b681bb2650" name="Default" comment="继续迁移记录">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/基础知识/Android基础知识/Activity相关.md" beforeDir="false" afterPath="$PROJECT_DIR$/基础知识/Android基础知识/Activity相关.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/基础知识/Android基础知识/Fragment.md" beforeDir="false" afterPath="$PROJECT_DIR$/基础知识/Android基础知识/Fragment.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/基础知识/Android基础知识/TextView.md" beforeDir="false" afterPath="$PROJECT_DIR$/基础知识/Android基础知识/TextView.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/基础知识/Android基础知识/图片处理.md" beforeDir="false" afterPath="$PROJECT_DIR$/基础知识/Android基础知识/图片处理.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/基础知识/Java基础知识/细节.md" beforeDir="false" afterPath="$PROJECT_DIR$/基础知识/Java基础知识/细节.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/工具使用文档/Git的使用.md" beforeDir="false" afterPath="$PROJECT_DIR$/工具使用文档/Git的使用.md" afterDir="false" />
     </list>
     <ignored path="collections.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,23 +33,25 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="md" value="57" />
+          <entry key="md" value="90" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Markdown" value="56" />
+          <entry key="Markdown" value="89" />
           <entry key="PLAIN_TEXT" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="md" value="224" />
+          <entry key="md" value="632" />
+          <entry key="txt" value="23" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Markdown" value="224" />
+          <entry key="Markdown" value="632" />
+          <entry key="PLAIN_TEXT" value="23" />
         </counts>
       </usages-collector>
     </session>
@@ -56,65 +62,89 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/基础知识/Android基础知识/Service相关.md">
+        <entry file="file://$PROJECT_DIR$/基础知识/Java基础知识/输入输出.md">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/工具使用文档/AS使用技巧(Mac版).md">
+        <entry file="file://$PROJECT_DIR$/基础知识/Android基础知识/View通用.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="387">
-              <caret line="23" column="4" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="4" />
+            <state relative-caret-position="135">
+              <caret line="83" column="59" lean-forward="true" selection-start-line="83" selection-start-column="59" selection-end-line="83" selection-end-column="59" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/基础知识/Java基础知识/继承.md">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/基础知识/Java基础知识/异常.md">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/基础知识/Android基础知识/重要源码网址.md">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/基础知识/Android基础知识/通用.md">
+        <entry file="file://$PROJECT_DIR$/基础知识/Android基础知识/动画.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="18" column="4" lean-forward="true" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
+            <state relative-caret-position="355">
+              <caret line="62" column="42" selection-start-line="62" selection-start-column="42" selection-end-line="62" selection-end-column="42" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/基础知识/Android基础知识/文本输入.md">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/基础知识/Android基础知识/Activity相关.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="371">
+              <caret line="60" column="4" selection-start-line="60" selection-start-column="4" selection-end-line="60" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/基础知识/Java基础知识/细节.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="29" lean-forward="true" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/工具使用文档/Git的使用.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="192">
+              <caret line="116" column="32" selection-start-line="116" selection-start-column="32" selection-end-line="116" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/基础知识/Android基础知识/MD设计.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/基础知识/Android基础知识/图片处理.md">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="17" column="2" selection-start-line="17" selection-start-column="2" selection-end-line="17" selection-end-column="2" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/基础知识/Android基础知识/TextView.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="41" selection-start-column="41" selection-end-column="41" />
+            <state relative-caret-position="68">
+              <caret line="4" column="53" selection-start-line="4" selection-start-column="53" selection-end-line="4" selection-end-column="53" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/基础知识/Android基础知识/layout_weight属性总结.md">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/基础知识/Android基础知识/Fragment.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="615">
+              <caret line="37" column="56" selection-start-line="37" selection-start-column="56" selection-end-line="37" selection-end-column="56" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -127,7 +157,6 @@
       <list>
         <option value="$PROJECT_DIR$/基础知识/Android基础知识/Shape总结.md" />
         <option value="$PROJECT_DIR$/基础知识/Android基础知识/inputType.md" />
-        <option value="$PROJECT_DIR$/基础知识/Android基础知识/图片处理.md" />
         <option value="$PROJECT_DIR$/工具使用文档/LeakCanary的使用.md" />
         <option value="$PROJECT_DIR$/基础知识/Android基础知识/RelativeLayout总结.md" />
         <option value="$PROJECT_DIR$/基础知识/Android基础知识/layout_weight属性总结.md" />
@@ -139,20 +168,28 @@
         <option value="$PROJECT_DIR$/基础知识/Java基础知识/文件.md" />
         <option value="$PROJECT_DIR$/基础知识/Java基础知识/输入输出.md" />
         <option value="$PROJECT_DIR$/基础知识/Java基础知识/异常.md" />
-        <option value="$PROJECT_DIR$/基础知识/Android基础知识/View通用.md" />
         <option value="$PROJECT_DIR$/基础知识/Android基础知识/重要源码网址.md" />
-        <option value="$PROJECT_DIR$/基础知识/Android基础知识/事件体系.md" />
         <option value="$PROJECT_DIR$/工具使用文档/Android Studio使用细节.md" />
         <option value="$PROJECT_DIR$/工具使用文档/Android Studio使用技巧.md" />
-        <option value="$PROJECT_DIR$/工具使用文档/Git的使用.md" />
         <option value="$PROJECT_DIR$/基础知识/Android基础知识/Service相关.md" />
-        <option value="$PROJECT_DIR$/基础知识/Android基础知识/Activity相关.md" />
         <option value="$PROJECT_DIR$/基础知识/Android基础知识/ContentProvider相关.md" />
         <option value="$PROJECT_DIR$/基础知识/Java基础知识/网络.md" />
-        <option value="$PROJECT_DIR$/基础知识/Android基础知识/TextView.md" />
-        <option value="$PROJECT_DIR$/基础知识/Android基础知识/ListView.md" />
         <option value="$PROJECT_DIR$/工具使用文档/Mac使用技巧.md" />
         <option value="$PROJECT_DIR$/工具使用文档/AS使用技巧(Mac版).md" />
+        <option value="$PROJECT_DIR$/基础知识/Android基础知识/View通用.md" />
+        <option value="$PROJECT_DIR$/基础知识/Android基础知识/ListView.md" />
+        <option value="$PROJECT_DIR$/基础知识/Android基础知识/项目配置.md" />
+        <option value="$PROJECT_DIR$/基础知识/Android基础知识/字符串资源.md" />
+        <option value="$PROJECT_DIR$/基础知识/Android基础知识/Notification.md" />
+        <option value="$PROJECT_DIR$/基础知识/Android基础知识/事件体系.md" />
+        <option value="$PROJECT_DIR$/基础知识/Android基础知识/动画.md" />
+        <option value="$PROJECT_DIR$/基础知识/Android基础知识/Activity相关.md" />
+        <option value="$PROJECT_DIR$/基础知识/Android基础知识/Fragment.md" />
+        <option value="$PROJECT_DIR$/基础知识/Android基础知识/图片处理.md" />
+        <option value="$PROJECT_DIR$/基础知识/Android基础知识/TextView.md" />
+        <option value="$PROJECT_DIR$/工具使用文档/Git的使用.md" />
+        <option value="$PROJECT_DIR$/基础知识/Java基础知识/细节.md" />
+        <option value="$PROJECT_DIR$/基础知识/Android基础知识/MD设计.md" />
       </list>
     </option>
   </component>
@@ -367,6 +404,21 @@
       <option name="presentableId" value="Default" />
       <updated>1479111808624</updated>
     </task>
+    <task id="LOCAL-00001" summary="新建Mac使用技巧">
+      <created>1548040751954</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1548040751954</updated>
+    </task>
+    <task id="LOCAL-00002" summary="继续迁移记录">
+      <created>1548057241458</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1548057241458</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -439,16 +491,17 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="新建Mac使用技巧" />
+    <MESSAGE value="继续迁移记录" />
+    <option name="LAST_COMMIT_MESSAGE" value="继续迁移记录" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.idea/collections.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/基础知识/Android基础知识/inputType" />
     <entry file="file://$PROJECT_DIR$/常用代码段/图片处理.md" />
     <entry file="file://$PROJECT_DIR$/常用代码段/AdapterView.md" />
     <entry file="file://$PROJECT_DIR$/常用代码段/Fragment.md" />
     <entry file="file://$PROJECT_DIR$/常用代码段/自定义View.md" />
-    <entry file="file://$PROJECT_DIR$/基础知识/Android基础知识/RelativeLayout总结.md" />
     <entry file="file://$PROJECT_DIR$/.idea/encodings.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -460,8 +513,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/基础知识/Android基础知识/AdapterView方法总结.md" />
-    <entry file="file://$PROJECT_DIR$/基础知识/Java基础知识/内部类.md" />
-    <entry file="file://$PROJECT_DIR$/基础知识/Java基础知识/泛型.md" />
     <entry file="file://$PROJECT_DIR$/.idea/modules.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
@@ -485,9 +536,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/基础知识/Java基础知识/细节.md">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/基础知识/Android基础知识/Shape总结.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-247" />
@@ -500,68 +548,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/基础知识/Android基础知识/Fragment.md">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/基础知识/Android基础知识/Activity相关.md">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/基础知识/Android基础知识/ContentProvider相关.md">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/基础知识/Java基础知识/反射.md">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/基础知识/Java基础知识/输入输出.md">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/基础知识/Android基础知识/事件体系.md">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/基础知识/Android基础知识/View通用.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-810">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/基础知识/Android基础知识/字符串资源.md">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/基础知识/Android基础知识/动画.md">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/基础知识/Android基础知识/ListView.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/工具使用文档/Mac使用技巧.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="9" selection-start-column="9" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/基础知识/Java基础知识/网络.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/工具使用文档/ButterKnife的使用.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/工具使用文档/Git的使用.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-810" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/工具使用文档/LeakCanary的使用.md">
@@ -580,13 +577,7 @@
     <entry file="file://$PROJECT_DIR$/工具使用文档/Android Studio使用技巧.md">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/基础知识/Java基础知识/继承.md">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/基础知识/Java基础知识/异常.md">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/基础知识/Android基础知识/重要源码网址.md">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/基础知识/Android基础知识/通用.md">
@@ -599,26 +590,157 @@
     <entry file="file://$PROJECT_DIR$/基础知识/Android基础知识/文本输入.md">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/基础知识/Android基础知识/图片处理.md">
+    <entry file="file://$PROJECT_DIR$/工具使用文档/AS使用技巧(Mac版).md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="387">
+          <caret line="23" column="4" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/工具使用文档/Mac使用技巧.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="48" column="17" lean-forward="true" selection-start-line="48" selection-start-column="17" selection-end-line="48" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/基础知识/Java基础知识/泛型.md">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/基础知识/Android基础知识/TextView.md">
+    <entry file="file://$PROJECT_DIR$/基础知识/Java基础知识/网络.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="41" selection-start-column="41" selection-end-column="41" />
+        <state relative-caret-position="170">
+          <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/基础知识/Java基础知识/继承.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/基础知识/Android基础知识/ListView.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="65" selection-start-line="8" selection-start-column="65" selection-end-line="8" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/基础知识/Android基础知识/项目配置.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="64" selection-start-line="1" selection-start-column="64" selection-end-line="1" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/基础知识/Android基础知识/字符串资源.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/基础知识/Android基础知识/Notification.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="63" selection-start-line="9" selection-start-column="63" selection-end-line="9" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/基础知识/Android基础知识/事件体系.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="56" selection-start-line="13" selection-start-column="56" selection-end-line="13" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/基础知识/Android基础知识/重要源码网址.md">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/基础知识/Java基础知识/内部类.md">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/基础知识/Android基础知识/Service相关.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-364" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/基础知识/Android基础知识/layout_weight属性总结.md">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/基础知识/Android基础知识/Service相关.md">
+    <entry file="file://$PROJECT_DIR$/基础知识/Android基础知识/RelativeLayout总结.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-194" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/基础知识/Java基础知识/输入输出.md">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/工具使用文档/AS使用技巧(Mac版).md">
+    <entry file="file://$PROJECT_DIR$/基础知识/Java基础知识/注解.md">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/基础知识/Android基础知识/动画.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="387">
-          <caret line="23" column="4" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="4" />
+        <state relative-caret-position="355">
+          <caret line="62" column="42" selection-start-line="62" selection-start-column="42" selection-end-line="62" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/基础知识/Android基础知识/Activity相关.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="371">
+          <caret line="60" column="4" selection-start-line="60" selection-start-column="4" selection-end-line="60" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/基础知识/Android基础知识/Fragment.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="615">
+          <caret line="37" column="56" selection-start-line="37" selection-start-column="56" selection-end-line="37" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/基础知识/Android基础知识/图片处理.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="2" selection-start-line="17" selection-start-column="2" selection-end-line="17" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/基础知识/Android基础知识/TextView.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="53" selection-start-line="4" selection-start-column="53" selection-end-line="4" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/工具使用文档/Git的使用.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="116" column="32" selection-start-line="116" selection-start-column="32" selection-end-line="116" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/基础知识/Java基础知识/细节.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="29" lean-forward="true" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/基础知识/Android基础知识/MD设计.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/基础知识/Android基础知识/View通用.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="83" column="59" lean-forward="true" selection-start-line="83" selection-start-column="59" selection-end-line="83" selection-end-column="59" />
         </state>
       </provider>
     </entry>

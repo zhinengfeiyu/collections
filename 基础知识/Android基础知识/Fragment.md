@@ -35,4 +35,4 @@ Fragment添加后是否加入返回栈，生命周期都一样，pop即完全移
 - Fragment的onHiddenChanged(boolean)执行时机，在Activity onResume、onPause回调时不会回调该方法，
     例如回到桌面、切换到别的应用、展示dialog等，在第一次创建该fragment时也不会回调该方法，
     而在外面通过FragmentTransaction的show()、hide()方法执行时，会回调该方法
-- 
+- Fragment调用setArguments()方法的时机，必须是在添加到Activity之前，否则会抛异常

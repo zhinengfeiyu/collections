@@ -83,6 +83,7 @@
 - git commit --amend：等同于先执行git reset --soft，再commit。可用于修改提交信息，或者改动后再次提交，  
                       但是会直接替换原来的head处提交，而不是新建提交
 - git checkout -b 新分支名 起始提交处：从起始提交处拉出一个新分支，起始提交处默认是head，实际操作可以改为head^等                      
+- git stash clear清空栈里面所有东西，不会拿出来应用；git stash show显示stash保存了哪些更改
 
 
 ##### git服务端交互命令
@@ -106,6 +107,15 @@
 - git remote (-v)：查看远程库信息，加上-v查看详细信息
 - git push origin :待删除的远程分支 / git push --delete origin 待删除的远程分支： 删除掉远程分支
     （注意：执行git push操作，只会推送已提交的部分，其他已修改但未提交的还是留在本地，而且不会拒绝push）
+    
+
+### git注意事项
+- 如果当前本地在A分支，要把服务器B分支代码对应拉到本地B分支，必须先在本地切到B分支，再执行git pull origin B。
+    否则如果直接在A分支执行该命令，会造成B分支代码拉到A分支的情况
+- 提示冲突的时候，冲突的两段代码之间用“===”分隔，当前分支的代码在上面以<<<head开始，
+    被合并过来的其他分支的代码在下面，以>>>>分支名结束
+- merge过程中如果提示输入merge信息但不想输入，直接按:wq3个字符，再回车
+
 
 ### adb命令：[adb使用官方链接](https://developer.android.google.cn/studio/command-line/adb.html)
 1. adb devices：显示所有连接的设备及其状态

@@ -28,6 +28,7 @@
   找到method后，每次调onClick方法都会直接反射调用method的invoke方法。
 3. layoutDirection属性指定布局是从左往右还是从右往左，有LTR、RTL、INHERIT(从父布局继承，默认值)、LOCALE
 4. 没有paddingStart/paddingEnd属性的情况下，当padding属性定义后，上下左右边距肯定是一样的，另外定义的paddingLeft等失效
+5. View调用invalidate却不执行绘制的条件：Visibility不为Visible，并且自身不在动画中
 
 ##### 源码阅读记录（ViewGroup）
 1. OnHierarchyChangeListener这个内部类可以用来监听子View被添加或删除事件

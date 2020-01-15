@@ -1,8 +1,6 @@
 ### 文件、窗口操作：
 - ALT+SHIFT+R  
     重命名某个文件，等同于右键某个文件->Refactor->Rename，两步操作换一步
-- CTRL+SHIFT+C  
-    复制文件在整个磁盘的绝对路径
 - CTRL+ALT+SHIFT+C  
     复制文件在当前项目的路径，即在绝对路径的基础上，把“项目名/”及以前的部分全部去掉
 - CTRL+F4  
@@ -70,6 +68,8 @@
     在光标所在行加一个临时断点，程序resume到当前行暂停；如果前面有断点则失效
 - END  
     如果在logcat窗口，光标直接跳到最底下最新的log处
+- ALT+2
+    打开/关闭Favorites窗口
 
 ### 编辑系列：
 ###### 删除操作：
@@ -211,6 +211,8 @@
     对光标所在行或选中区域自动缩进合适的距离，根据上下文风格
 - ALT+SHIFT+←/→  
     对列表内的当前元素向左/右交换位置，例如函数参数、数组常量等
+- CTRL+SHIFT+C（已修改）
+    Compare with the same repository version
 
 
 ### 附：Windows快捷键

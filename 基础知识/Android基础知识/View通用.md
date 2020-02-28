@@ -11,7 +11,7 @@
 
 
 ### 关于自定义View
-- 如果自定义的组件继承自View，而不是其他现成的Widget，最好[重写onMeasure()方法](E:\Android\MyCodes\MyLaboratory\DemoCollection\自定义View.md)。
+- 如果自定义的组件继承自View，而不是其他现成的Widget，最好重写onMeasure()方法。
 - 自定义属性的类型：string , integer , float, dimension , reference , color , enum , flag , fraction ， boolean<br>
     如果一个属性可以是多种类型，类型间加"|"，例：<attr name="XXX" format="reference|color" />
 - xmlns:toolbar=http://schemas.android.com/apk/res/cn.zzm.toolbar <br>

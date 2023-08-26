@@ -21,3 +21,4 @@
 - ImageFilterView可以用来实现圆角，圆角大小可以用绝对数值或者0-1的百分比，用百分比表示圆角大小等于图片宽高的较小值的一半乘以该比例。
     该组件可以用于其他类型容器，不只是ConstraintLayout
 - ImageFilterView可以用来实现图片之上的蒙层，altSrc表示覆盖在上层的另一张图片，可以是颜色值引用，crossfade默认是0，表示altSrc图片的透明度
+- Group的宽高无论设置成什么值都是一样的效果，onMeasure的时候都是0

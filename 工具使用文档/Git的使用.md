@@ -115,6 +115,7 @@
 - 提示冲突的时候，冲突的两段代码之间用“===”分隔，当前分支的代码在上面以<<<head开始，
     被合并过来的其他分支的代码在下面，以>>>>分支名结束
 - merge过程中如果提示输入merge信息但不想输入，直接按:wq3个字符，再回车
+- 使用rebase合并出现冲突后，先解决冲突，再执行git add .和git rebase --continue，注意没有git commit命令。这样git会继续应用余下的patch补丁文件，所以有可能需要处理多次冲突。
 
 
 ### adb命令：[adb使用官方链接](https://developer.android.google.cn/studio/command-line/adb.html)

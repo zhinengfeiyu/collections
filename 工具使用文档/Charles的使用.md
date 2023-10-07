@@ -6,5 +6,8 @@
 - Rewrite功能比较多，可以拦截修改请求部分或返回部分。修改返回的数据：Type选择Body，Where选择Response。
   如果要产生map local的效果，Match部分不填，Replace部分把返回的完整json串填上；
   也可以通过正则或不通过正则修改某个返回参数值，使用"XX":\s*XX的正则匹配替换某个键值对，这时需要把Regex勾选上；
-  修改请求的参数：Type选择Add/Modify/Remove Query Param，这时把Name和Value同时填上，Regex不需要勾选
+  修改请求的参数：Type选择Add/Modify/Remove Query Param，这时把Name和Value同时填上，Regex不需要勾选。这个修改请求参数的操作可以用Compose替代
+- 修改请求参数后重发一次：单击顶部中间的Compose按钮，或者右键选择Compose，可修改请求路径或参数，点击Execute再次发送，点击Revert还原。
+  这个带钢笔图标的Compose面板使用后会继续保留，后续还可以继续修改重发
+- 直接重发：右键Repeat，或单击顶部中间的重试图标
 - 查看返回结果需要顶部选中Contents标签，底部常用3种查看模式Text、JSON和JSON Text，如果数据过多查看完整结构可以切换到JSON标签

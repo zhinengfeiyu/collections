@@ -1,0 +1,4 @@
+1. Lifecycle.addObserver()方法瞬间，被添加的observer会立即触发之前经历的不重复的生命周期，如果是在LifecycleOwner的onCreate回调里添加，会立即触发observer的onCreate；
+   在owner正常运行后，不管中间经历了多少次pause resume start stop，都只会触发onCreate到onStart到onResume
+3. 同一个LifecycleOwner重复添加同一个observer且不删除，只会触发第一次的回调，删除后再添加，会再次触发那几次回调
+4. Fragment的显示隐藏状态不会影响lifecycle相关的生命周期回调，二者完全是独立的

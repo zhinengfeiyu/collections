@@ -7,7 +7,7 @@
 - 给view启动animation后，animation的是否执行与visibility属性无关；
     给View先启动动画再设置visibility为Gone，visibility属性能正常设置，但是看到的view依然在显示状态执行动画；
     执行removeView的情况也是这样，而且都是在原来的位置执行动画
-- 
+- <merge>为根标签的布局，添加tools:parentTag属性指定layout类型，可用于实时预览，不添加的话预览布局是混乱的
 
 
 ### 关于自定义View
